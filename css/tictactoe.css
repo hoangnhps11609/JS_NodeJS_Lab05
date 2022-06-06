@@ -1,0 +1,46 @@
+.container{
+    /* background-color:wheat; */
+    width: 400px;
+    height: 500px;
+    margin: auto;
+
+}
+
+.row{
+    display: flex;
+    flex-grow: 1;
+    /* background-color:aqua; */
+}
+
+.gameBoard{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.btn{
+    flex-grow: 1;
+    margin: 5px;
+    font-size: 5em;
+    font-weight: bold;
+    width: 90px;
+    height: 90px;
+}
+
+.title{
+    font-size: 1.8em;
+    text-align: center;
+    color: gray;
+}
+
+.controls{
+    text-align: center;
+}
+
+.xbtn{
+    color: tomato;
+}
+
+.obtn{
+    color:blue;
+}
